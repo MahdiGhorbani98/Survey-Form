@@ -1,0 +1,261 @@
+html{
+    font-size: 100%;
+    /*color: black;*/
+    font-family:"Poppins", sans-serif;
+
+}
+body{
+    background-image:linear-gradient(135deg, rgba(31, 44, 78, 0.4), rgba(15, 44, 110, 0.4) 60%), url("scott-graham-OQMZwNd3ThU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 40% 0;
+    color: #f3f3f3;
+}
+
+/*title*/
+.title {
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 1.3;
+    margin: 3rem 0.2rem 1.0rem 0.2rem;
+}
+
+
+.caption_title{
+    margin-top: 10px;
+    margin-bottom: 2.5rem;
+    font-family: "Poppins Light", sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/*desktop aspect*/
+@media (min-width:768px) {
+    .caption_title{
+    font-size: 1.4rem;
+    }
+    header p{
+    font-size: 2.5rem;
+    margin: 5rem 0 1.0rem 0;
+
+    }
+}
+
+.container{
+    width: 100%;
+    margin: 1rem auto 0 auto;
+}
+
+/*desktop aspect*/
+@media (min-width: 768px) {
+    .container{
+        width: 900px;
+    }
+}
+
+.mainForm{
+    background: rgba(27, 27, 50, 0.8);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.inputs{
+    padding: 40px;
+    margin: 0 auto;
+}
+
+input:required{
+    /*background-color: #c18383;*/
+}
+
+.inputs input{
+    margin-top: 0.7rem;
+    margin-bottom: 1.8rem;
+    font-family:"Poppins", sans-serif;
+    width: 100%;
+    padding: 7px 7px 7px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    font-size: 1rem;
+
+}
+
+
+.radioInput input{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right:0.4rem;!important;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    position: relative;
+    top: 3px;
+}
+
+.radioInput{
+    margin-bottom: 2.5rem;
+}
+
+.inputs p{
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+
+}
+
+.favorite_Select label{
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+span{
+    font-size: 0.9rem;
+}
+
+.inputs label{
+    font-size: 1.2rem;
+}
+
+.inputs select{
+    margin-top: 0.6rem;
+    margin-bottom: 1.8rem;
+    font-family:"Poppins", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px 7px 7px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: dimgrey;
+}
+.normal_input input:focus,select:focus{
+    outline: none;
+    box-shadow: 0 0 0px 0.15rem #0a4490;
+}
+
+.Chekboxs input{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0 0.4rem 0.9rem 0;
+    position: relative;
+    top: 3px;
+}
+.Chekboxs{
+    margin-bottom: 2rem;
+}
+
+.textArea{
+    width: 100%;
+    height: 120px;
+    margin: 0.8rem auto 1.8rem auto;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family:"Poppins", sans-serif;
+    padding: 7px 7px 7px 10px;
+    font-size: 1rem;
+
+}
+
+button{
+    background-color: #37af65;
+    font-family:"Poppins", sans-serif;
+    text-align: center;
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 auto 2rem auto;
+    height: 3rem;
+    color: #f3f3f3;
+    font-size: 1.0rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .inputs{
+        padding: 55px;
+    }
+    .inputs input{
+        padding: 10px;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        font-size: 1.3rem;
+    }
+    .inputs select{
+        padding: 10px;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        font-size: 1.3rem;
+    }
+    .inputs label{
+        font-size: 1.5rem;
+    }
+    .normal_input input:focus,select:focus{
+        outline: none;
+        box-shadow: 0 0 0px 0.2rem #0a4490;
+
+    }
+
+
+    span{
+        font-size: 1.1rem;
+    }
+    .radioInput input{
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-right:0.5rem;!important;
+        margin-bottom: 0.8rem;
+        margin-top: 0.3rem;
+        position: relative;
+        top: 4px;
+    }
+
+    .inputs p{
+        line-height: 1.4;
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+
+    }
+
+    .Chekboxs input{
+        width: 1.75rem;
+        height: 1.75rem;
+        margin: 0 0.6rem 1.0rem 0;
+        position: relative;
+        top: 4px;
+
+    }
+
+    .textArea{
+        width: 100%;
+        height: 150px;
+        margin: 1rem auto 2.5rem auto;
+        box-sizing: border-box;
+        border-radius: 2px;
+        padding: 10px 10px 10px 12px;
+        font-size: 1.2rem;
+
+    }
+
+    button{
+        background-color: #37af65;
+        height: 4rem;
+        color: #f3f3f3;
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+}
+
+
+
